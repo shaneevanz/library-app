@@ -22,6 +22,7 @@ const AddEdit: React.FC<Props> = ({ bookData, setModal }) => {
     } else {
       createBook();
     }
+    setModal(false);
   };
 
   const createBook = async () => {
